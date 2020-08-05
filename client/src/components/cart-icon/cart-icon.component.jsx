@@ -11,7 +11,7 @@ import {
   ItemCountContainer,
 } from "./cart-icon.styles";
 
-const CartIcon = ({ toggleCartHidden, itemCount }) => {
+export const CartIcon = ({ toggleCartHidden, itemCount }) => {
   return (
     <CartContainer onClick={toggleCartHidden}>
       <ShoppingIcon />

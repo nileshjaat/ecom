@@ -33,7 +33,7 @@ const StripeCheckoutButton = ({ price }) => {
       name="ND Ecom Ltd."
       billingAddress
       shippingAddress
-      image="https://svgshare.com/i/CUz.svg"
+      image="https://sendeyo.com/up/d/f3eb2117da"
       description={`You total is $${price}`}
       amount={priceForStripe}
       panelLabel="Pay Now"
